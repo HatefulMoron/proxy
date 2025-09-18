@@ -1,0 +1,19 @@
+{
+  "server": {
+    "port": 8080,
+    "host": "0.0.0.0"
+  },
+  "target": {
+    "scheme": "https",
+    "host": "solrenview.com"
+  },
+  "proxy": {
+    "url": "http://dc.oxylabs.io:8000",
+    "username": "user-ecosuite_p5OUw-country-US",
+    "password": "xxx"
+  },
+  "logging": {
+    "level": "info",
+    "format": "json"
+  }
+}
